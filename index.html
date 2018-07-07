@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+    <link rel="icon" href="images/twitterLogo.png" />
+    <title>Twitter</title>
+  </head>
+  <body>
+    <nav class="header">
+      <i class="fab fa-twitter"></i>
+    </nav>
+    <main class="container">
+      <section class="profile box">
+        <div class="profile-container">
+          <div class="image"></div>
+          <div class="">
+            <h1 class="name">Gaby Futemma</h1>
+            <h2 class="user-name">@gabyblanch</h2>
+          </div>
+        </div>
+        <div class="tweet-count-container">
+          <div class="">
+            <h3 class="count-tweet">Tweets</h3>
+            <p class="count">0</p>
+          </div>
+          <div class="">
+            <h3 class="count-tweet">Following</h3>
+            <p class="count">115</p>
+          </div>
+          <div class="">
+            <h3 class="count-tweet">Followers</h3>
+            <p class="count">26</p>
+          </div>
+        </div>
+      </section>
+      <section class="form-area box">
+        <form class="tweet-form">
+          <textarea class="tweet-input" placeholder="What's happening?"></textarea>
+          <div class="btn-count">
+            <p class="char-number">140</p>
+            <input type="button" class="submit-btn" value="Tweet" disabled />
+          </div>
+        </form>
+      </section>
+    </main>
+    <section class="tweet-feed box">
+    </section>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/moment.js"></script>
+  </body>
+</html>
