@@ -53,7 +53,7 @@ function disableBtn() {
   } else {
     submit.disabled = false;
     submit.style.opacity = "1";
-    submit.style.cursor = "auto";
+    submit.style.cursor = "pointer";
   }
 }
 
